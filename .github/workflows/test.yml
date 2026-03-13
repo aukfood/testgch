@@ -6,7 +6,10 @@ on:
     
 jobs:
   mon-coucou:
-    runs-on: self-hosted
+    runs-on: [self-hosted,windows]
+    defaults:
+      run:
+        shell: cmd
     steps:
       - name: Coucou
-        run: echo "Bonjour Windows !"
+        run: echo Bonjour Windows depuis cmd !
