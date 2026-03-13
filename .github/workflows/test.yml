@@ -1,0 +1,11 @@
+name: coucou
+
+on:
+  push:
+    branches: [ main ]
+    
+jobs:
+runs-on: self-hosted
+steps:
+  - name: Coucou
+    run: echo "Bonjour Windows !"
