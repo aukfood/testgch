@@ -5,8 +5,8 @@ on:
     branches: [ main ]
     
 jobs:
-mon-coucou:
-  runs-on: self-hosted
-  steps:
-    - name: Coucou
-      run: echo "Bonjour Windows !"
+  mon-coucou:
+    runs-on: self-hosted
+    steps:
+      - name: Coucou
+        run: echo "Bonjour Windows !"
